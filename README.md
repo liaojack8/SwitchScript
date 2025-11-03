@@ -19,7 +19,7 @@
     - [x] 遊戲遊玩時間記錄工具 `NX-Activity-Log` [From Here](https://github.com/zdm65477730/NX-Activity-Log/releases/latest)
     - [x] 主題安裝工具 `NXThemesInstaller` [From Here](https://github.com/exelix11/SwitchThemeInjector/releases/latest)
     - [x] 遊戲存檔管理工具 `JKSV` [From Here](https://github.com/J-D-K/JKSV/releases/latest)
-    - [x] 系統切換工具 `tencent-switcher-gui` [From Here](https://github.com/CaiMiao/Tencent-switcher-GUI/releases/latest)
+    - [ ] ~~系統切換工具 `tencent-switcher-gui` [From Here](https://github.com/CaiMiao/Tencent-switcher-GUI/releases/latest)~~
     - [x] 多工具合一任天堂Switch更新器 `aio-switch-updater` [From Here](https://github.com/HamletDuFromage/aio-switch-updater/releases/latest)
     - [x] 第三方B站客戶端 `wiliwili` [From Here](https://github.com/xfangfang/wiliwili/releases/latest)
     - [x] Mod下載器 `SimpleModDownloader` [From Here](https://github.com/PoloNX/SimpleModDownloader/releases/latest)
