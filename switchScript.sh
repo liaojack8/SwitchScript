@@ -38,7 +38,6 @@ mkdir -p ./SwitchSD/switch/Moonlight
 mkdir -p ./SwitchSD/switch/NXThemesInstaller
 mkdir -p ./SwitchSD/switch/SimpleModDownloader
 mkdir -p ./SwitchSD/switch/Switchfin
-mkdir -p ./SwitchSD/switch/tencent-switcher-gui
 mkdir -p ./SwitchSD/switch/wiliwili
 mkdir -p ./SwitchSD/switch/NX-Activity-Log
 mkdir -p ./SwitchSD/switch/.overlays
@@ -156,13 +155,6 @@ curl -sL "$download_url" -o JKSV.nro && {
     echo "JKSV download\033[32m success\033[0m."
     mv JKSV.nro ./switch/JKSV
 } || echo "JKSV download\033[31m failed\033[0m."
-
-latest_release_info=$(curl -sL https://api.github.com/repos/CaiMiao/Tencent-switcher-GUI/releases/latest)
-download_url=$(echo "$latest_release_info" | grep -oP '"browser_download_url": "\Khttps://[^"]*tencent-switcher-gui.nro' | sed 's/"//g')
-curl -sL "$download_url" -o tencent-switcher-gui.nro && {
-    echo "Tencent-switcher-GUI download\033[32m success\033[0m."
-    mv tencent-switcher-gui.nro ./switch/tencent-switcher-gui
-} || echo "Tencent-switcher-GUI download\033[31m failed\033[0m."
 
 latest_release_info=$(curl -sL https://api.github.com/repos/HamletDuFromage/aio-switch-updater/releases/latest)
 download_url=$(echo "$latest_release_info" | grep -oP '"browser_download_url": "\Khttps://[^"]*aio-switch-updater.zip' | sed 's/"//g')
@@ -383,7 +375,6 @@ Hekate-Toolbox
 NX-Activity-Log
 NXThemesInstaller
 JKSV
-Tencent-switcher-GUI
 aio-switch-updater
 wiliwili
 SimpleModDownloader
