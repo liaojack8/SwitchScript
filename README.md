@@ -5,7 +5,7 @@
 - 下載最新：
   - 大氣層三件套
     - [x] `Atmosphere + Fusee` [From Here](https://github.com/Atmosphere-NX/Atmosphere/releases/latest)
-    - [x] `Hekate + Nyx 簡體中文` [From Here](https://github.com/easyworld/hekate/releases/latest)
+    - [x] `Hekate + Nyx 繁體中文` [From Here](https://github.com/easyworld/hekate/releases/latest)
     - [x] `Sigpatches` [From Here](https://hackintendo.com/download/sigpatches/)
   - Payload插件
     - [x] 主機系統的密鑰提取工具 `Lockpick_RCM` [From Here](https://github.com/zdm65477730/Lockpick_RCMDecScots/releases/latest)
