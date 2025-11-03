@@ -60,7 +60,7 @@ curl -sL "$download_url" -o fusee.bin && {
 } || echo "fusee download\033[31m failed\033[0m."
 
 latest_release_info=$(curl -sL https://api.github.com/repos/easyworld/hekate/releases/latest)
-download_url=$(echo "$latest_release_info" | grep -oP '"browser_download_url": "\Khttps://[^"]*hekate_ctcaer[^"]*_sc.zip' | sed 's/"//g')
+download_url=$(echo "$latest_release_info" | grep -oP '"browser_download_url": "\Khttps://[^"]*hekate_ctcaer[^"]*_tc.zip' | sed 's/"//g')
 curl -sL "$download_url" -o hekate.zip && {
     echo "Hekate + Nyx CHS download\033[32m success\033[0m."
     unzip -oq hekate.zip
